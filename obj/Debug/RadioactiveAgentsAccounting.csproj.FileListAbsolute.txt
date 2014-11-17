@@ -1,0 +1,17 @@
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\RadioactiveAgentsAccounting.exe.config
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\RadioactiveAgentsAccounting.exe
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\RadioactiveAgentsAccounting.pdb
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\EntityFramework.dll
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\EntityFramework.xml
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.csprojResolveAssemblyReference.cache
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\MainWindow.baml
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\MainWindow.g.cs
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\App.g.cs
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting_MarkupCompile.cache
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.g.resources
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.Properties.Resources.resources
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.csproj.GenerateResource.Cache
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.exe
+C:\Users\klok\Desktop\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.pdb
