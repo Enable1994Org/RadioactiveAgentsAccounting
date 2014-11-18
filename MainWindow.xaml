@@ -1,8 +1,24 @@
-﻿<Window x:Class="RadioactiveAgentsAccounting.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Models="clr-namespace:RadioactiveAgentsAccounting.Models" mc:Ignorable="d" x:Class="RadioactiveAgentsAccounting.MainWindow"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="districtViewSource" d:DesignSource="{d:DesignInstance {x:Type Models:District}, CreateList=True}"/>
+        <CollectionViewSource x:Key="provinceViewSource" d:DesignSource="{d:DesignInstance {x:Type Models:Province}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource districtViewSource}" Loaded="Window_Loaded">
+        <DataGrid x:Name="districtDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="10,10,380,189" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="iDColumn" Binding="{Binding ID}" Header="ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="nameColumn" Binding="{Binding Name}" Header="Name" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="provinceDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource provinceViewSource}}" Margin="142,10,163,189" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="iDColumn1" Binding="{Binding ID}" Header="ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="nameColumn1" Binding="{Binding Name}" Header="Name" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

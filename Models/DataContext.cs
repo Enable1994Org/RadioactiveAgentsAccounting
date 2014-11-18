@@ -16,7 +16,7 @@ namespace RadioactiveAgentsAccounting.Models
         public DbSet<InstRawAmount> InstRawAmounts { get; set; }
         public DbSet<InstIrsAmount> InstIrsAmounts { get; set; }
         public DbSet<RAW> Raws { get; set; }
-        public DbSet<RAWType> RawTypes { get; set; }
+        //public DbSet<RAWType> RawTypes { get; set; }
         public DbSet<IRS> Irss { get; set; }
     }
 }
