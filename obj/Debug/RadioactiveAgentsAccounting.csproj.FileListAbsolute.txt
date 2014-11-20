@@ -19,3 +19,4 @@ C:\Users\klok\Documents\GitHub\RadioactiveAgentsAccounting\obj\Debug\Radioactive
 C:\Users\klok\Documents\GitHub\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.csproj.GenerateResource.Cache
 C:\Users\klok\Documents\GitHub\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.exe
 C:\Users\klok\Documents\GitHub\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.pdb
+C:\Users\klok\Documents\GitHub\RadioactiveAgentsAccounting\obj\Debug\RadioactiveAgentsAccounting.csprojResolveAssemblyReference.cache

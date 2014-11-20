@@ -1,1 +1,1 @@
-﻿select * from dbo.Districts
+﻿select * from dbo.Districts where ID>5
